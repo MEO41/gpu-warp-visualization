@@ -36,7 +36,7 @@ This simulator provides a real-time visual representation of:
 - **Warps**: Groups of 32 threads executed simultaneously by the SM.
 - **SM (Streaming Multiprocessor)**: Hardware unit capable of executing many warps concurrently.
 
-![SM Diagram](./mnt/data/de4a115a-3d34-42c2-9934-cd1e894f243d.png)
+![SM Diagram](https://github.com/MEO41/gpu-warp-visualization/blob/main/readmeAssets/02-sm.png?raw=true)
 > SM architecture showing warp schedulers, execution units, and memory
 
 ## 🧱 Example Configuration
@@ -50,14 +50,7 @@ This simulator provides a real-time visual representation of:
 
 Each SM can handle a limited number of warps concurrently (up to 64 on modern NVIDIA GPUs). The warp scheduler within each SM is responsible for distributing instructions across available warps.
 
-![Grid and Block View](./)
+![Grid and Block View](https://github.com/MEO41/gpu-warp-visualization/blob/main/readmeAssets/02-threadmapping.png?raw=true)
 > Threads within a block and how multiple grids interact with SMs
 
-## 🚀 Getting Started
-
-> _This tool is a visual simulator, typically accessed through a browser or a GUI application._
-
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/your-username/cuda-gpu-simulator.git
-   cd cuda-gpu-simulator
+https://nyu-cds.github.io/python-gpu/02-cuda/
