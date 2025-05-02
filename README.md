@@ -1,3 +1,5 @@
+# Live Version Check it out
+https://gpu-warp-visualization.netlify.app/
 # CUDA GPU Execution Model Simulator
 
 This project simulates the execution of CUDA kernels on a GPU using a simplified model of thread blocks, grids, warps, and streaming multiprocessors (SMs). It's a helpful educational tool for visualizing how GPU computation works at the hardware scheduling level.
