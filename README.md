@@ -11,7 +11,7 @@ This simulator provides a real-time visual representation of:
 - How **threads** are grouped into **warps** and scheduled by **warp schedulers**.
 - How **shared memory**, **registers**, and **execution units** are utilized in an SM.
 
-![Simulator Screenshot](.gpu-warp-visualization\readmeAssets\Screenshot 2025-05-02 232616.png)
+![Simulator Screenshot](https://github.com/MEO41/gpu-warp-visualization/blob/main/readmeAssets/Screenshot%202025-05-02%20232616.png?raw=true)
 > Kernel execution and thread block mapping onto SMs
 
 ## 📌 Features
